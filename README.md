@@ -100,7 +100,7 @@ backend/.env
 | Variable | Default | Meaning |
 |---|---|---|
 | GEMINI_API_KEY | (empty) | Gemini key. Empty -> template script fallback |
-| GEMINI_MODEL | gemini-2.5-flash | Model name |
+| GEMINI_MODEL | gemini-3.5-flash | Model name |
 | FRONTEND_ORIGIN | http://localhost:5173 | CORS origin(s), comma separated |
 | GEMINI_TIMEOUT_SECONDS | 40 | Per-request timeout |
 | GEMINI_MAX_ATTEMPTS | 3 | Attempts before template fallback |
