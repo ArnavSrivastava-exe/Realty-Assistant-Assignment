@@ -1,0 +1,27 @@
+# Secrets
+.env
+*.env.local
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Generated media / temp
+backend/temp_uploads/*
+!backend/temp_uploads/.gitkeep
+backend/outputs/*
+!backend/outputs/.gitkeep
+sample_data/images/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
